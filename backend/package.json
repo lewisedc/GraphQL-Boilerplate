@@ -1,0 +1,9 @@
+{
+  "name": "graphql-boilerplate-backend",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  }
+}
