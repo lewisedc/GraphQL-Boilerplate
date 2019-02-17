@@ -1,7 +1,12 @@
 type Query {
-  info: String!
+  posts: [Post!]!
 }
 
 type Mutation {
   info: String!
+}
+
+type Post {
+  id: ID!
+  text: String!
 }

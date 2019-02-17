@@ -1,7 +1,7 @@
-const info = () => "This is information";
+const posts = require("./posts");
 
 const Query = {
-  info
+  posts
 };
 
 module.exports = Query;

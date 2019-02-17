@@ -1,4 +1,4 @@
-endpoint: ${env:PRISMA_URL}
+endpoint: https://eu1.prisma.sh/lewis-df7b16/test/dev
 
 datamodel: datamodel.prisma
 
@@ -13,4 +13,4 @@ hooks:
   post-deploy:
     - prisma generate
 
-secret: ${env:PRISMA_SECRET}
+secret: secret123
