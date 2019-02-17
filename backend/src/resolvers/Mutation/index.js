@@ -1,7 +1,7 @@
-const info = () => "This is information";
+const createPost = require("./createPost");
 
 const Mutation = {
-  info
+  createPost
 };
 
 module.exports = Mutation;
