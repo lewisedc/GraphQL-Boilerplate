@@ -1,0 +1,20 @@
+mutation {
+  post1: createPost(data: { text: "This is my first post" }) {
+    id
+    text
+    createdAt
+    updatedAt
+  }
+  post2: createPost(data: { text: "This is my second post" }) {
+    id
+    text
+    createdAt
+    updatedAt
+  }
+  post3: createPost(data: { text: "This is a wild crazy post" }) {
+    id
+    text
+    createdAt
+    updatedAt
+  }
+}
